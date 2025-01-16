@@ -4,6 +4,7 @@
     box-sizing: border-box;
     
 }
+
 .main-container{
     background-image: url(back3.jpg);
     height: 1050px;
@@ -80,6 +81,8 @@
     background-image: url(back3.jpg);
     height: 500px;
     padding-top: 50px;
+    background-color: #141D24;
+    background-blend-mode: difference;
 }
 .box1 {
     background-color: rgba(0, 0, 0, 0.4);
@@ -94,44 +97,30 @@
     padding-left: 15px;
     padding-top: 22px;
 }
+.box4{
+    margin-top: 80px;
+}
 .containerthree{
     background-color: black;
-    height: 5400px;
+    height: 5000px;
     padding-left: 15px;
+    margin-top: -10px;
+    padding-top: 30px;
 }
-.box5 {
+.box5, .box7, .box9, .box11, .box13 {
     margin-left: auto;
     margin-right: auto;
     max-width: 93%;
+    margin-top: -50px;
     
 }
-.box7 {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 93%;
-    
-}
-.box9 {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 93%;
-    
-}
-.box11 {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 93%;
-    
-}
-.box13 {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 93%;
-    
-}
+
+
 .containerfour{
     background-color:  #141D24;
-    height: 1500px;
+    height: 1550px;
+    margin-top: -10px;
+    padding-top: 50px;
 }
 .box16 {
     margin-left: auto;
@@ -159,14 +148,15 @@
    
   
 }
+
 .img {
     background-image: url(backimg.png);
-    height: 1000px;
+    height: 1050px;
     background-position: center;
     background-size: cover;
     background-color:rgba(0, 0, 0, 0.8) ;
-    
     margin-top: -10px;
+   padding-top: 50px;
     
    
 }
@@ -229,12 +219,19 @@
    
 }
 .containereight{
-    height: 300px;
+    height: 400px;
     background-color: rgb(253, 253, 250);
     margin-top: 50px;
 }
 .box24{
     padding-left: 20px;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 1200ms;
+}
+  .box24.show{
+    opacity: 1;
+    transform: translateY(0);
 }
 .containernine{
     background-image: url(backimg2.jpg);
@@ -244,23 +241,28 @@
     padding-top: 50px;
     
 }
+.box25{
+    padding-left: 10px;
+}
 .box26{
     background-color: black;
     height: 900px;
-    margin-top: 100px;
+    margin-top: 50px;
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+    padding-left: 25px;
 }
 .box27{
     background-image: url(back5.png);
     height: 300px;
     background-position: center;
     background-size: cover;
+    
 }
 .box28{
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .b5 {
     background-color: #2AD263;
@@ -268,6 +270,6 @@
     width: 250px;
     border-radius: 50px;
     color: ghostwhite;
-    margin-top: 20px;
+    margin-top: 30px;
     
 }
