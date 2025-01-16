@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.main-container{
+    background-image: url(back3.jpg);
+    height: 1050px;
+    max-width: 100%;
+    
+   
+   
+} 
+.one{
+    padding-top: 130px;
+  margin-left: 10px;
+}
+.groupbutton {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    
+}
+.b1{
+    background-color: limegreen;
+    border-radius: 50px;
+    color: ghostwhite;
+    width: 130px;
+    height: 35px;
+}
+.b2{
+   border-radius: 50px; 
+   background-color: black;
+   color: ghostwhite;
+   border: 1px ghostwhite solid;
+   width: 150px;
+   height: 35px;
+}
+.line {
+    background-color: ghostwhite;
+    max-width: 100%;
+    height: 1px;
+    margin-top: 40px;
+}
+.containerone{
+    margin-top: 20px;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(77, 71, 71);
+    border-radius: 10px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    color: ghostwhite;
+    border: 1px limegreen solid;
+    
+}
+.container-text{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+.two{
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+.three {
+    font-size: 1.2em;
+    margin-top: 1px;
+}
+.four {
+    margin-top: 10px;
+}
+.five {
+    margin-top: 5px;
+}
+.containertwo {
+    background-image: url(back3.jpg);
+    height: 500px;
+    padding-top: 50px;
+}
+.box1 {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px white solid;
+    border-radius: 10px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+.box2 {
+    padding-left: 15px;
+    padding-top: 22px;
+}
+.containerthree{
+    background-color: black;
+    height: 5400px;
+    padding-left: 15px;
+}
+.box5 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 93%;
+    
+}
+.box7 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 93%;
+    
+}
+.box9 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 93%;
+    
+}
+.box11 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 93%;
+    
+}
+.box13 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 93%;
+    
+}
+.containerfour{
+    background-color:  #141D24;
+    height: 1500px;
+}
+.box16 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%;
+    
+}
+.box17 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%;
+    margin-top: -40px;
+}
+.box18 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 65%;
+}
+.b3 {
+   background-color: #2AD263;
+   height: 50px;
+   width: 280px;
+   border-radius: 50px;
+   color: ghostwhite;
+   
+  
+}
+.img {
+    background-image: url(backimg.png);
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    background-color:rgba(0, 0, 0, 0.8) ;
+    
+    margin-top: -10px;
+    
+   
+}
+.containersix{
+    padding-left: 30px;
+    
+}
+.cone{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 1200ms;
+}
+  .cone.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+.containerseven{
+    max-width: 100%;
+
+}
+.img2{
+    background-image: url(back3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+    
+}
+.box20{
+    margin-left: 25px;
+    padding-top: 20px;
+}
+.box21{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 73%;
+    margin-top: 40px;
+}
+.box22{
+    background-image: url(back4.png);
+    height: 500px;
+    width: 700px;
+    background-position: center;
+    background-size: cover;
+    margin-top: -220px;
+    margin-left: -250px;
+    
+}
+.b4 {
+    background-color: #2AD263;
+    height: 40px;
+    width: 280px;
+    border-radius: 50px;
+    color: ghostwhite;
+    
+   
+}
+.containereight{
+    height: 300px;
+    background-color: rgb(253, 253, 250);
+    margin-top: 50px;
+}
+.box24{
+    padding-left: 20px;
+}
+.containernine{
+    background-image: url(backimg2.jpg);
+    height: 1200px;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    
+}
+.box26{
+    background-color: black;
+    height: 900px;
+    margin-top: 100px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.box27{
+    background-image: url(back5.png);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+.box28{
+    margin-top: 20px;
+}
+.b5 {
+    background-color: #2AD263;
+    height: 40px;
+    width: 250px;
+    border-radius: 50px;
+    color: ghostwhite;
+    margin-top: 20px;
+    
+}
